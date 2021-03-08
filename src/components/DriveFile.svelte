@@ -82,7 +82,7 @@
         <strong>Nome:</strong>
         {item.name}<br>
         <strong>Categoria:</strong>
-        {item.appProperties?.category || ''}<br>
+        {item.appProperties.category || ''}<br>
         <strong>Tipo:</strong>
         {item.mimeType}<br>
         <button on:click={() => editing = true}>Editar</button>
